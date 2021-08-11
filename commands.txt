@@ -15,3 +15,5 @@ next to add model and service class
     5. in employee model I used (!) operator because of error
 
     6. <app.emplyee></app.emplyee> this is entered in app.component.html copied form app/employee/employee.component.ts
+
+    7. next we need to inject the component in employee.component.ts
