@@ -4,3 +4,10 @@ cd client
 ng serve --open  (to run angular)
 
 ng g c ComponentName  (for creating component inc app folder)
+
+next to add model and service class
+
+    1. create a folder as shared
+    2. cd shared
+    3. ng g class employee --type=model (for model)
+    4. ng g s employee (for service)
