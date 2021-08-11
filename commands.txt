@@ -1,0 +1,4 @@
+npm install -g @angular/cli
+ng new client
+cd client
+ng serve --open
