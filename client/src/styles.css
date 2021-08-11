@@ -12,6 +12,7 @@ input.ng-invalid.ng-dirty{
 .input-field>label{
     font-size: 1.2rem;
     font-weight: bold;
+    color: #25a297;
 }
 
 .btn-custom,.btn-custom:hover,.btn-custom:focus{

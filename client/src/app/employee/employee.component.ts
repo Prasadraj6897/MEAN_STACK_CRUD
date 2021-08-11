@@ -3,6 +3,8 @@ import { Component, OnInit } from '@angular/core';
 import { EmployeeService } from '../shared/employee.service';
 import { Employee } from '../shared/employee.model';
 
+import { NgForm } from '@angular/forms';
+
 @Component({
   selector: 'app-employee',
   templateUrl: './employee.component.html',
@@ -14,6 +16,19 @@ export class EmployeeComponent implements OnInit {
   constructor(public employeeService: EmployeeService) { }
 
   ngOnInit(): void {
+    this.resetForm();
+  }
+
+  resetForm(form?: NgForm) {
+    if (form)
+      form.reset();
+    this.employeeService.selectedEmployee = {
+      _id: "",
+      name: "",
+      position: "",
+      office: "",
+      salary: null,
+    }
   }
 
 }
