@@ -12,7 +12,7 @@ next to add model and service class
     3. ng g class employee --type=model (for model)
     4. ng g s employee (for service)
 
-    5. in employee model I used (!) operator because of error
+    5. in tsconfig.json added "strictPropertyInitialization": false  because of property is not initialised error
 
     6. <app.emplyee></app.emplyee> this is entered in app.component.html copied form app/employee/employee.component.ts
 
