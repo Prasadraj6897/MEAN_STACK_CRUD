@@ -1,4 +1,6 @@
 npm install -g @angular/cli
 ng new client
 cd client
-ng serve --open
+ng serve --open  (to run angular)
+
+ng g c ComponentName  (for creating component inc app folder)
