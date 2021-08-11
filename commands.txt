@@ -17,3 +17,5 @@ next to add model and service class
     6. <app.emplyee></app.emplyee> this is entered in app.component.html copied form app/employee/employee.component.ts
 
     7. next we need to inject the component in employee.component.ts
+
+    8. added "strictNullChecks": false, in tsconfig.json for declaring null for number
